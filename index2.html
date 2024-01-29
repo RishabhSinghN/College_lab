@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio Data Form</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <div class="container">
+    <form class="bio-form">
+      <h2>Bio Data Form</h2>
+
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName">
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+
+      <label>Gender: <br>
+      <div class="gen">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        </label>  
+      </div>
+      
+
+      <label for="age">Age:</label>
+      <input type="number" id="age">
+
+
+      <label for="skills">Skills:</label>
+      <select id="skills">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+        <option>Python</option>
+      </select>
+
+      <label>Interests:</label>
+      <div class="interest-options">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="reading">
+        <label for="traveling">Traveling</label>
+        <input type="checkbox" id="traveling"> 
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="sports"> 
+      </div>
+
+      <label for="bio">Bio:</label>
+      <textarea id="bio" rows="4"></textarea>
+
+      <label for="photo">Upload Photo:</label>
+      <input type="file" id="photo" accept="image/*">
+
+      <label for="website">Personal Website:</label>
+      <input type="url" id="website" placeholder="https://example.com">
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+
+      <label for="address">Address:</label>
+      <textarea id="address" rows="3"></textarea>
+
+      <label for="color">Favorite Color:</label>
+      <input type="color" id="color">
+
+      <input type="submit">
+      <input type="reset">
+    </form>
+  </div>
+
+</body>
+</html>

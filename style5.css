@@ -1,0 +1,11 @@
+.external h1 {
+    color: red;
+    text-align: center;
+  }
+  .external button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
